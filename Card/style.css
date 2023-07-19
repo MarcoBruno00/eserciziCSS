@@ -1,0 +1,31 @@
+body {
+    background-color: lightgray;
+}
+
+.image {
+    
+    text-align: center;
+}
+
+
+
+
+.inizio {
+    text-align: center;
+    margin-right: 150px;
+}
+
+.centro{
+    text-align: center;
+    margin-right: 300px;
+}
+
+#div1 {
+    float: right;
+    margin-right: 700px;
+}
+
+#div2 {
+    float: left;
+    margin-left: 500px;
+}
