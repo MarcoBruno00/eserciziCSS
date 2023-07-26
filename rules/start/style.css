@@ -1,14 +1,26 @@
+:root{
+    --ball : orange;
+    --width : 100px;
+    --height: 100px;
+    --radius: 50px;
+    --margin-left: 50vw;
+    --margin-top: 100px;
+    --body: black;
+}
+
+
+
 body {
-    background-color: #011212;
+    background-color:var(--body)
 }
 
 .ball {
     display: flex;
-    width: 100px;
-    height: 100px;
-    background-color: #ff8800;
-    border-radius: 50px;
-    margin-left: 50vw;
-    margin-top: 100px;
+    width: var(--width);
+    height: var(--height);
+    background-color:var(--ball);
+    border-radius: var(--radius);
+    margin-left: var(--margin-left);
+    margin-top: var(--margin-top);
 }
 
