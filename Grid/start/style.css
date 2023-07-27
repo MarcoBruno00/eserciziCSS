@@ -1,0 +1,195 @@
+section{
+    display: grid;
+    grid-template-columns:repeat(4 , 1fr);
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+    grid-template-areas: "header header header header"
+    "grid-piu grid-- grid-x grid-d"
+    "grid-7 grid-8 grid-9 grid-u"
+    "grid-4 grid-5 grid-6 grid-u"
+    "grid-1 grid-2 grid-3 grid-u"
+    "grid-0 grid-p grid-ac grid-u";
+}
+
+.grid-header{
+    
+    border: 1px solid black;
+    
+    text-align: end;
+    font-size: 30px;
+    padding: 5px;
+    background-color: gray;
+    color: white;
+    grid-area: header;
+}
+
+.grid-piu{
+    background-color: lightgrey;
+    display: flex;
+    border: 1px solid black;
+    justify-content: center;
+   font-size: 20px;
+    padding-top: 10px;
+    grid-area: grid-piu;
+}
+
+.grid--{
+    border: 1px solid black;
+    background-color: lightgrey;
+    display: flex;
+    justify-content: center;
+   font-size: 20px;
+    padding-top: 10px;
+    grid-area: grid--;
+}
+
+.grid-x{
+    border: 1px solid black;
+    background-color: lightgrey;
+    display: flex;
+    justify-content: center;
+   font-size: 20px;
+    padding-top: 10px;
+    grid-area: grid-x;
+}
+
+.grid-d{
+    border: 1px solid black;
+    background-color: lightgrey;
+    display: flex;
+    justify-content: center;
+   font-size: 20px;
+    padding-top: 10px;
+    grid-area: grid-d;
+}
+
+.grid-7{
+    border: 1px solid black;
+    background-color: rgb(241, 238, 238);
+    display: flex;
+    justify-content: center;
+   font-size: 20px;
+    padding-top: 10px;
+    grid-area: grid-7;
+}
+
+.grid-8{
+    border: 1px solid black;
+    background-color: rgb(241, 238, 238);
+    display: flex;
+    justify-content: center;
+   font-size: 20px;
+    padding-top: 10px;
+    grid-area: grid-8;
+}
+
+.grid-9{
+    border: 1px solid black;
+    background-color: rgb(241, 238, 238);
+    display: flex;
+    justify-content: center;
+   font-size: 20px;
+    padding-top: 10px;
+    grid-area: grid-9;
+}
+
+.grid-4{
+    border: 1px solid black;
+    background-color: rgb(241, 238, 238);
+    display: flex;
+    justify-content: center;
+   font-size: 20px;
+    padding-top: 10px;
+    grid-area: grid-4;
+}
+
+.grid-5{
+    border: 1px solid black;
+    background-color: rgb(241, 238, 238);
+    display: flex;
+    justify-content: center;
+   font-size: 20px;
+    padding-top: 10px;
+    grid-area: grid-5;
+}
+
+.grid-6{
+    border: 1px solid black;
+    background-color: rgb(241, 238, 238);
+    display: flex;
+    justify-content: center;
+   font-size: 20px;
+    padding-top: 10px;
+    grid-area: grid-6;
+}
+
+.grid-1{
+    border: 1px solid black;
+    background-color: rgb(241, 238, 238);
+    display: flex;
+    justify-content: center;
+   font-size: 20px;
+    padding-top: 10px;
+    grid-area: grid-1;
+}
+
+.grid-2{
+    border: 1px solid black;
+    background-color: rgb(241, 238, 238);
+    display: flex;
+    justify-content: center;
+   font-size: 20px;
+    padding-top: 10px;
+    grid-area: grid-2;
+}
+
+.grid-3{
+    border: 1px solid black;
+    background-color: rgb(241, 238, 238);
+    display: flex;
+    justify-content: center;
+   font-size: 20px;
+    padding-top: 10px;
+    grid-area: grid-3;
+}
+
+.grid-0{
+    border: 1px solid black;
+    background-color: rgb(241, 238, 238);
+    display: flex;
+    justify-content: center;
+   font-size: 20px;
+    padding-top: 10px;
+    grid-area: grid-0;
+}
+
+.grid-p{
+    border: 1px solid black;
+    background-color: rgb(241, 238, 238);
+    display: flex;
+    justify-content: center;
+   font-size: 20px;
+    padding-top: 10px;
+    grid-area: grid-p;
+}
+
+.grid-ac{
+    border: 1px solid black;
+    background-color: rgb(241, 238, 238);
+    display: flex;
+    justify-content: center;
+   font-size: 20px;
+    padding-top: 10px;
+    grid-area: grid-ac;
+}
+
+.grid-u{
+    border: 1px solid black;
+    background-color: pink;
+    display: flex;
+    justify-content: center;
+   font-size: 20px;
+    padding-top: 10px;
+    grid-area: grid-u;
+}
