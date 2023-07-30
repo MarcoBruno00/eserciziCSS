@@ -1,0 +1,55 @@
+
+section.flex{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+}
+
+section.mario{
+   background-color: lightgray;
+   border: 1px solid black;
+   width: 200px;
+}
+
+
+img.mario{
+    width: 100%;
+    height: 150px;
+}
+
+section.elias{
+    background-color: lightgray;
+    border: 1px solid black;
+    width: 200px;
+}
+
+img.elias{
+    width: 100%;
+    height: 150px;
+}
+
+section.gattino{
+    background-color: lightgray;
+    border: 1px solid black;
+    width: 200px;
+}
+
+img.gattino{
+    width: 100%;
+    height: 150px;
+}
+
+@media screen and (max-width: 1000px) {
+ section.flex{
+    flex-wrap: wrap;
+ }
+}
+
+
+@media screen and (max-width: 500px) {
+    section.flex{
+        flex-direction: column;
+    } 
+    
+}
+    
